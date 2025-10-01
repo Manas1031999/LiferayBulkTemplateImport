@@ -35,3 +35,5 @@
 <%
     }
 %>
+<liferay-ui:success key="import-success" message="Templates imported successfully." />
+<liferay-ui:error key="import-failed" message="<%= (String)request.getAttribute(\"importExceptionMessage\") %>" />
